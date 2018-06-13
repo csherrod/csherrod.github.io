@@ -16,6 +16,9 @@ html {
   /* Box-model */
   min-height: 100%;
 }
+a:hover {
+  color: #BF5700;
+}
 
 /* ---------NAV START---------- */
 
@@ -281,6 +284,24 @@ html {
 
   /* Visual */
   background-color: #fff;
+}
+/*********************  Cards ****************************/
+.card {
+  /* background-color: #4aaaa5; */
+  box-shadow: 10px 10px 5px grey;
+  margin: 10px;
+  max-height: 300px;
+  max-width: 300px;
+}
+.card:hover {
+  border: 3px solid #BF5700;
+  background-color: #BF5700;
+  opacity: .8;
+  bottom: 4px;
+}
+.plink {
+  color: #ffffff;
+  font-size: 16px;
 }
 
 .port-hr {
