@@ -25,6 +25,9 @@ a:hover {
 }
 /* ********************************************* */
 /* --------        Index Page         ---------- */
+.techstack {
+  margin: auto;
+}
 
 /* ********************************************* */
 /* --------    Connect with Me        ---------- */
@@ -49,6 +52,16 @@ a:hover {
 .contact-form {
   border: 1px solid #232324;
   padding: 10px;
+  margin-top: 10px;
+}
+.bcard {
+  text-align: center;
+  padding: 10px;
+  font-family: "Nothing You Could Do", cursive;
+  border:2px solid #c29510;
+  color: #c29510;
+  background-color: #232324;
+  margin-top: 10px;
 }
 /* ********************************************* */
 /* --------           Footer          ---------- */
@@ -72,6 +85,7 @@ a:hover {
 .two-toned-footer-color {
   height: 6px;
   padding-top: 3px;
+  padding-right;0px;
   background-color: #c29510;
   bottom: 0;
 }
