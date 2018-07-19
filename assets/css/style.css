@@ -7,6 +7,12 @@ body {
   margin-bottom: 60px;
   transition: all 500ms ease;
 }
+.title {
+  font-family: "Nothing You Could Do", cursive;
+  margin: 0px !important;
+  padding-top: 10px;
+  text-align: center;
+}
 /* ********************************************* */
 /* ---------      NAV START           ---------- */
 .navbar {
@@ -25,18 +31,26 @@ a:hover {
 }
 /* ********************************************* */
 /* --------        Index Page         ---------- */
-.about-me-content {
-  padding: 10px;
-  margin-top: 10px;
-}
+.aboutme {
+  text-indent: 30px;
+} 
 .techstack {
   margin: auto;
-  padding: 10px;
+  width: 50%;
+}
+#mern {
+  margin-right: 50px;
+  padding-right: 50px;
+}
+h1 {  font-family: "Nunito Sans", sans-serif;
 }
 #cody-image {
-  max-width: 300px;
   max-height: 300px;
+  max-width: 300px;
+  float: left;
+  margin: 10px;
 }
+
 /* ********************************************* */
 /* --------    Connect with Me        ---------- */
 .connect-logo {
@@ -50,7 +64,7 @@ a:hover {
   animation: bounce 1s;
 }
 #connectwithmediv {
-  padding: 20px 15px 10px 15px;
+  padding: 10px 15px 0px 15px;
 }
 /* ********************************************* */
 /* --------       Contact Page        ---------- */
@@ -99,6 +113,39 @@ a:hover {
 }
 /* ********************************************* */
 /* --------       Portfolio Page      ---------- */
+.tech-logo {
+  height: 40px;
+  width: 40px;
+  padding-top: 4px;
+}
+#javascript5 {
+  width:30px;
+}
+#jsx {
+  height: 30px;
+  width: 30px;
+}
+#ajax {
+  width: 80px;
+}
+#babel {
+  width: 60px;
+}
+#express {
+  width: 80px;
+}
+#handlebars {
+  width: 50px;
+}
+#mongo {
+  width:60px;
+}
+#mongoose {
+  width: 90px;
+}
+#yarn {
+  width: 60px;
+}
 .card {
   /* background-color: #4aaaa5; */
   box-shadow: 10px 10px 5px grey;
