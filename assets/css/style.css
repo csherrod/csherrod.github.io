@@ -47,8 +47,10 @@ h1 {  font-family: "Nunito Sans", sans-serif;
 #cody-image {
   max-height: 300px;
   max-width: 300px;
-  float: left;
   margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ********************************************* */
